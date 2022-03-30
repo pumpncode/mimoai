@@ -1,0 +1,9 @@
+{
+	"deno.enable": true,
+	"deno.importMap": "./modules.json",
+	"deno.lint": true,
+	"deno.unstable": true,
+	"python.linting.pylintEnabled": false,
+	"python.linting.flake8Enabled": true,
+	"python.linting.enabled": true
+}

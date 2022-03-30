@@ -1,0 +1,9 @@
+{
+	"imports": {
+		"cliffy": "https://x.nest.land/cliffy@0.18.1/mod.ts",
+		"process": "https://deno.land/x/process@v0.3.0/mod.ts",
+		"io": "https://deno.land/x/std@0.106.0/io/mod.ts",
+		"blockhash-core": "https://esm.sh/blockhash-core?target=es2021",
+		"convnetjs": "https://esm.sh/convnetjs?target=es2021"
+	}
+}

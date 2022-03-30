@@ -1,0 +1,17 @@
+Arguments:
+  update,--file,modules.json
+
+Deno version:
+  deno: 1.8.2
+  v8: 9.0.257.3
+  typescript: 4.2.2
+
+Eggs version:
+  0.3.5
+
+Platform:
+  x86_64-apple-darwin
+
+2021-03-28T17:44:14.896Z [DEBUG]    Options:  { file: "modules.json" }
+2021-03-28T17:44:15.069Z [DEBUG]    Dependency file contents:  [ '\t\t"cliffy": "https://x.nest.land/cliffy@0.18.1/mod.ts"' ]
+2021-03-28T17:44:15.090Z [CRITICAL] An unexpected error occurred: "Cannot read property 'length' of undefined" "TypeError: Cannot read property 'length' of undefined\n    at Command.update [as fn] (https://u4jgeqxh7aiznbzrynotclz25s7tustm43j4lbygdzzrfilr2nwa.arweave.net/pxJiQuf4EZaHMcNdMS867L86Smzm08WHBh5zEqFx02w/src/commands/update.ts:72:24)\n    at async Command.execute (https://xqalpbanzpdlq4nxt35ywjwpm6xwayfdny3pnikd4cp2ozmyl3xa.arweave.net/vAC3hA3Lxrhxt577iybPZ69gYKNuNvahQ-Cfp2WYXu4/command/command.ts:785:9)\n    at async Command.parse (https://xqalpbanzpdlq4nxt35ywjwpm6xwayfdny3pnikd4cp2ozmyl3xa.arweave.net/vAC3hA3Lxrhxt577iybPZ69gYKNuNvahQ-Cfp2WYXu4/command/command.ts:720:14)\n    at async Command.parse (https://xqalpbanzpdlq4nxt35ywjwpm6xwayfdny3pnikd4cp2ozmyl3xa.arweave.net/vAC3hA3Lxrhxt577iybPZ69gYKNuNvahQ-Cfp2WYXu4/command/command.ts:677:14)\n    at async https://u4jgeqxh7aiznbzrynotclz25s7tustm43j4lbygdzzrfilr2nwa.arweave.net/pxJiQuf4EZaHMcNdMS867L86Smzm08WHBh5zEqFx02w/eggs.ts:74:23"

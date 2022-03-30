@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Animation Current Time</key>
+	<real>0.0</real>
+	<key>Animation Duration</key>
+	<real>5</real>
+	<key>Animation FPS</key>
+	<real>30</real>
+	<key>Animation Loops</key>
+	<true/>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ChangeTransformNode</string>
+			<key>From node id</key>
+			<string>215</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ArtboardNode</string>
+			<key>To node id</key>
+			<string>1</string>
+			<key>To socket parameter</key>
+			<string>OutputLayer2</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ArtboardNode</string>
+			<key>From node id</key>
+			<string>1</string>
+			<key>From socket parameter</key>
+			<string>X</string>
+			<key>To node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>To node id</key>
+			<string>211</string>
+			<key>To socket parameter</key>
+			<string>A</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>From node id</key>
+			<string>211</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>48</string>
+			<key>To socket parameter</key>
+			<string>X</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ArtboardNode</string>
+			<key>From node id</key>
+			<string>1</string>
+			<key>From socket parameter</key>
+			<string>Y</string>
+			<key>To node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>To node id</key>
+			<string>212</string>
+			<key>To socket parameter</key>
+			<string>A</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>From node id</key>
+			<string>212</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>48</string>
+			<key>To socket parameter</key>
+			<string>Y</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>From node id</key>
+			<string>213</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>48</string>
+			<key>To socket parameter</key>
+			<string>Height</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ArtboardNode</string>
+			<key>From node id</key>
+			<string>1</string>
+			<key>From socket parameter</key>
+			<string>X</string>
+			<key>To node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>To node id</key>
+			<string>213</string>
+			<key>To socket parameter</key>
+			<string>A</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ElementShapeNode</string>
+			<key>From node id</key>
+			<string>48</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>RepeatGridNode</string>
+			<key>To node id</key>
+			<string>214</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>RepeatGridNode</string>
+			<key>From node id</key>
+			<string>214</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>215</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>RepeatGridNode</string>
+			<key>From node id</key>
+			<string>214</string>
+			<key>From socket parameter</key>
+			<string>Offset X</string>
+			<key>To node class</key>
+			<string>ValueMathNode</string>
+			<key>To node id</key>
+			<string>216</string>
+			<key>To socket parameter</key>
+			<string>A</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ElementShapeNode</string>
+			<key>From node id</key>
+			<string>48</string>
+			<key>From socket parameter</key>
+			<string>Size</string>
+			<key>To node class</key>
+			<string>ValueMathNode</string>
+			<key>To node id</key>
+			<string>216</string>
+			<key>To socket parameter</key>
+			<string>B</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>RepeatGridNode</string>
+			<key>From node id</key>
+			<string>214</string>
+			<key>From socket parameter</key>
+			<string>Columns</string>
+			<key>To node class</key>
+			<string>ValueMathNode</string>
+			<key>To node id</key>
+			<string>216</string>
+			<key>To socket parameter</key>
+			<string>C</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueMathNode</string>
+			<key>From node id</key>
+			<string>216</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>215</string>
+			<key>To socket parameter</key>
+			<string>Offset X</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ArtboardNode</string>
+			<key>From node id</key>
+			<string>1</string>
+			<key>From socket parameter</key>
+			<string>X</string>
+			<key>To node class</key>
+			<string>ValueMathNode</string>
+			<key>To node id</key>
+			<string>246</string>
+			<key>To socket parameter</key>
+			<string>A</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueNode</string>
+			<key>From node id</key>
+			<string>245</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ValueMathNode</string>
+			<key>To node id</key>
+			<string>246</string>
+			<key>To socket parameter</key>
+			<string>B</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueMathNode</string>
+			<key>From node id</key>
+			<string>246</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>215</string>
+			<key>To socket parameter</key>
+			<string>Scale X</string>
+		</dict>
+	</array>
+	<key>Display Repeat Opacity</key>
+	<real>0.5</real>
+	<key>Display Scaling</key>
+	<real>0.25</real>
+	<key>Document scroll offset</key>
+	<string>{0, 0}</string>
+	<key>Document split view part</key>
+	<real>565</real>
+	<key>Document window frame</key>
+	<string>{{1280, -280}, {1920, 1055}}</string>
+	<key>Export File Format</key>
+	<string>png</string>
+	<key>Export Filename</key>
+	<string>pattern-small</string>
+	<key>Export Repetitions X</key>
+	<integer>1</integer>
+	<key>Export Repetitions Y</key>
+	<integer>1</integer>
+	<key>Export Scale To Display</key>
+	<true/>
+	<key>Node ID Counter</key>
+	<integer>268</integer>
+	<key>Nodes</key>
+	<array>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1146, 51}, {148, 278}}</string>
+			<key>Node id</key>
+			<string>1</string>
+			<key>Node title</key>
+			<string>Artboard</string>
+			<key>Node type class</key>
+			<string>ArtboardNode</string>
+			<key>Node type name</key>
+			<string>ArtboardNode</string>
+			<key>Output layers</key>
+			<array>
+				<dict>
+					<key>DisplayName</key>
+					<string>Top layer</string>
+					<key>LayerID</key>
+					<string>OutputLayer1</string>
+					<key>Visible</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Middle layer</string>
+					<key>LayerID</key>
+					<string>OutputLayer2</string>
+					<key>Visible</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Bottom layer</string>
+					<key>LayerID</key>
+					<string>OutputLayer3</string>
+					<key>Visible</key>
+					<true/>
+				</dict>
+			</array>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>X</string>
+					<key>Parameter 2</key>
+					<string>Y</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Background Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg5EkEj6DC5wgPoPE
+				9jo+AYY=
+				</data>
+				<key>Background Opacity</key>
+				<real>1</real>
+				<key>Has Background</key>
+				<true/>
+				<key>Has Mirroring</key>
+				<false/>
+				<key>Horizontal mirroring</key>
+				<real>0.0</real>
+				<key>Vertical mirroring</key>
+				<real>0.0</real>
+				<key>X</key>
+				<real>1280</real>
+				<key>Y</key>
+				<real>1280</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{260, 51}, {148, 405}}</string>
+			<key>Node id</key>
+			<string>48</string>
+			<key>Node title</key>
+			<string>Shape</string>
+			<key>Node type class</key>
+			<string>ElementShapeNode</string>
+			<key>Node type name</key>
+			<string>ElementShapeNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Size</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>180</real>
+				<key>Diameter 2</key>
+				<real>20</real>
+				<key>Fill Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg+YkXj6DREGHPoOb
+				aaU+AYY=
+				</data>
+				<key>Fill Opacity</key>
+				<real>1</real>
+				<key>Has Fill</key>
+				<true/>
+				<key>Has Rotation</key>
+				<false/>
+				<key>Has Rounding</key>
+				<real>0.0</real>
+				<key>Has Stroke</key>
+				<false/>
+				<key>Has Stroke Caps Joints</key>
+				<real>0.0</real>
+				<key>Height</key>
+				<real>5120</real>
+				<key>Inner Diameter</key>
+				<real>0.0</real>
+				<key>Pie wedge</key>
+				<real>1</real>
+				<key>Rotation Angle</key>
+				<real>20</real>
+				<key>Rounding</key>
+				<real>0.20000000000000001</real>
+				<key>Rounding 2</key>
+				<real>0.20000000000000001</real>
+				<key>Shift</key>
+				<real>10</real>
+				<key>Sides</key>
+				<real>6</real>
+				<key>Size</key>
+				<real>50</real>
+				<key>Stroke Caps</key>
+				<integer>0</integer>
+				<key>Stroke Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmAAAAAYY=
+				</data>
+				<key>Stroke Joints</key>
+				<integer>0</integer>
+				<key>Stroke Opacity</key>
+				<real>1</real>
+				<key>Stroke Width</key>
+				<real>1</real>
+				<key>Type</key>
+				<integer>1</integer>
+				<key>X</key>
+				<real>640</real>
+				<key>Y</key>
+				<real>640</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{979, 504}, {94, 36}}</string>
+			<key>Node id</key>
+			<string>211</string>
+			<key>Node title</key>
+			<string>Simple math</string>
+			<key>Node type class</key>
+			<string>ValueMiniMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMiniMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>1280</real>
+				<key>Value</key>
+				<string>a/2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1062, 494}, {94, 36}}</string>
+			<key>Node id</key>
+			<string>212</string>
+			<key>Node title</key>
+			<string>Simple math</string>
+			<key>Node type class</key>
+			<string>ValueMiniMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMiniMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>1280</real>
+				<key>Value</key>
+				<string>a/2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{836, 363}, {94, 36}}</string>
+			<key>Node id</key>
+			<string>213</string>
+			<key>Node title</key>
+			<string>Simple math</string>
+			<key>Node type class</key>
+			<string>ValueMiniMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMiniMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>1280</real>
+				<key>Value</key>
+				<string>a*4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{629, 12}, {148, 415}}</string>
+			<key>Node id</key>
+			<string>214</string>
+			<key>Node title</key>
+			<string>Grid</string>
+			<key>Node type class</key>
+			<string>RepeatGridNode</string>
+			<key>Node type name</key>
+			<string>RepeatGridNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Columns</string>
+					<key>Parameter 2</key>
+					<string>Rows</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Offset X</string>
+					<key>Parameter 2</key>
+					<string>Offset Y</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Width</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Auto count</key>
+				<real>0.0</real>
+				<key>Auto spacing</key>
+				<real>0.0</real>
+				<key>Columns</key>
+				<real>99</real>
+				<key>Dynamic elements</key>
+				<real>1</real>
+				<key>Grid Mode</key>
+				<integer>0</integer>
+				<key>Grid height</key>
+				<real>0.0</real>
+				<key>Has Extras</key>
+				<true/>
+				<key>Height</key>
+				<real>300</real>
+				<key>Offset X</key>
+				<real>150</real>
+				<key>Offset Y</key>
+				<real>150</real>
+				<key>Remove last</key>
+				<false/>
+				<key>Row shift</key>
+				<real>0.5</real>
+				<key>Rows</key>
+				<real>1</real>
+				<key>Short odd rows</key>
+				<false/>
+				<key>Use artboard size</key>
+				<real>1</real>
+				<key>Width</key>
+				<real>300</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Change Mode</key>
+			<integer>0</integer>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{940, 14}, {148, 378}}</string>
+			<key>Node id</key>
+			<string>215</string>
+			<key>Node title</key>
+			<string>Transform</string>
+			<key>Node type class</key>
+			<string>ChangeTransformNode</string>
+			<key>Node type name</key>
+			<string>ChangeTransformNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Scale X</string>
+					<key>Parameter 2</key>
+					<string>Scale Y</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Resize X</string>
+					<key>Parameter 2</key>
+					<string>Resize Y</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>45</real>
+				<key>Has Offset</key>
+				<true/>
+				<key>Has Rotation</key>
+				<true/>
+				<key>Has Scale</key>
+				<true/>
+				<key>Offset X</key>
+				<real>-7350</real>
+				<key>Offset Y</key>
+				<real>0.0</real>
+				<key>Resize X</key>
+				<real>0.0</real>
+				<key>Resize Y</key>
+				<real>0.0</real>
+				<key>Scale X</key>
+				<real>0.60377358490566035</real>
+				<key>Scale Y</key>
+				<real>2</real>
+				<key>Selection Mode</key>
+				<integer>0</integer>
+				<key>Selection Offset</key>
+				<real>0.0</real>
+				<key>Selection Seed</key>
+				<real>0.0</real>
+				<key>Selection Select Count</key>
+				<real>1</real>
+				<key>Selection Skip Count</key>
+				<real>1</real>
+				<key>Size mode</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{809, 305}, {104, 136}}</string>
+			<key>Node id</key>
+			<string>216</string>
+			<key>Node title</key>
+			<string>Math</string>
+			<key>Node type class</key>
+			<string>ValueMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>150</real>
+				<key>B</key>
+				<real>50</real>
+				<key>C</key>
+				<real>99</real>
+				<key>Value</key>
+				<string>-(a*(c-1))/2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1130, 387}, {119, 36}}</string>
+			<key>Node id</key>
+			<string>217</string>
+			<key>Node title</key>
+			<string>Simple math</string>
+			<key>Node type class</key>
+			<string>ValueMiniMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMiniMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>1000</real>
+				<key>Value</key>
+				<string>a/(424/0.5)</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1189, 435}, {128, 60}}</string>
+			<key>Node id</key>
+			<string>245</string>
+			<key>Node title</key>
+			<string>Value</string>
+			<key>Node type class</key>
+			<string>ValueNode</string>
+			<key>Node type name</key>
+			<string>ValueNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Value</key>
+				<real>0.20000000000000001</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1359, 271}, {104, 136}}</string>
+			<key>Node id</key>
+			<string>246</string>
+			<key>Node title</key>
+			<string>Math</string>
+			<key>Node type class</key>
+			<string>ValueMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>1280</real>
+				<key>B</key>
+				<real>0.20000000000000001</real>
+				<key>C</key>
+				<real>3</real>
+				<key>Value</key>
+				<string>a/(424/b)</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Preview Image</key>
+	<data>
+	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
+	bzfQqw3HUXcrfe/mWt6/e242T0s+MXfXf+YAMMXFbPSJY3WhyK+W/7rzHgK0Z7PBOy4s
+	i57xRPVHAwtuesYYFSoNNlJqDyd33vMKm3uMuVUxbMqZmtoo9Q5XoHIsTU/XGcIIyT1I
+	MXDZbKVNG7neKcx0lYk19pGlNQeSWc9wSDJf4yLye+Z7x0Bt2nR4q/BNFAOVjRlQGd9t
+	ZAV1D7JntAVgj6fvxMqmDbIqEgsG+8v9zzBN+Vnj9dc7dPPqGsMB2KP0vadrAM7Qfavy
+	aSY39z+DP8Vn3gQAyrnmqM+p1oUB8jb1U6T2RQCbdj+AW2Aruz4QV+eKgtKzLi1AFRu6
+	yqBIzcsNabUvKM6dBVqdqww2z03HREWfeZty7ldAtVuX9x6GTG2XKddd9v2KNvksnf6t
+	omd3MhMUy817H6jSRRC+em6HzoURWp1rH26H7CaITbsfem+MlgN8+x8GtdY+CmVuZHN0
+	cmVhbQplbmRvYmoKMSAwIG9iago8PCAvVHlwZSAvUGFnZSAvUGFyZW50IDIgMCBSIC9S
+	ZXNvdXJjZXMgNCAwIFIgL0NvbnRlbnRzIDMgMCBSIC9NZWRpYUJveCBbMCAwIDMyMCAz
+	MjBdCj4+CmVuZG9iago0IDAgb2JqCjw8IC9Qcm9jU2V0IFsgL1BERiBdIC9Db2xvclNw
+	YWNlIDw8IC9DczEgNSAwIFIgPj4gPj4KZW5kb2JqCjYgMCBvYmoKPDwgL04gMyAvQWx0
+	ZXJuYXRlIC9EZXZpY2VSR0IgL0xlbmd0aCAyNjEyIC9GaWx0ZXIgL0ZsYXRlRGVjb2Rl
+	ID4+CnN0cmVhbQp4AZ2Wd1RT2RaHz703vdASIiAl9Bp6CSDSO0gVBFGJSYBQAoaEJnZE
+	BUYUESlWZFTAAUeHImNFFAuDgmLXCfIQUMbBUURF5d2MawnvrTXz3pr9x1nf2ee319ln
+	733XugBQ/IIEwnRYAYA0oVgU7uvBXBITy8T3AhgQAQ5YAcDhZmYER/hEAtT8vT2ZmahI
+	xrP27i6AZLvbLL9QJnPW/3+RIjdDJAYACkXVNjx+JhflApRTs8UZMv8EyvSVKTKGMTIW
+	oQmirCLjxK9s9qfmK7vJmJcm5KEaWc4ZvDSejLtQ3pol4aOMBKFcmCXgZ6N8B2W9VEma
+	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
+	myWDWQuzarLeZ0dln8pRzBHm9OSa5G7LHcnzyft+NWY1d3Vnvnb+hvzBNe5rDq2F1q5c
+	27lOd13BuuH1vuuPbSBtSNnwy0bLjWUb326K3tRRoFGwvmBos+/mxkK5QlHhvS3OWw5s
+	xWwVbO3dZrOtatuXIl7R9WLL4oriTyXckuvfWX1X+d3M9oTtvaX2pft34HYId9zd6brz
+	WJliWV7Z0K7gXa3lzPKi8re7V+y+VmFbcWAPaY9kj7QyqLK9Sq9qR9Wn6qTqgRqPmua9
+	6nu37Z3ax9vXv99tf9MBjQPFBz4eFBy8f8j3UGutQW3FYdzhrMPP66Lqur9nf19/RO1I
+	8ZHPR4VHpcfCj3XVO9TXN6g3lDbCjZLGseNxx2/94PVDexOr6VAzo7n4BDghOfHix/gf
+	754MPNl5in2q6Sf9n/a20FqKWqHW3NaJtqQ2aXtMe9/pgNOdHc4dLT+b/3z0jPaZmrPK
+	Z0vPkc4VnJs5n3d+8kLGhfGLiReHOld0Prq05NKdrrCu3suBl69e8blyqdu9+/xVl6tn
+	rjldO32dfb3thv2N1h67npZf7H5p6bXvbb3pcLP9luOtjr4Ffef6Xfsv3va6feWO/50b
+	A4sG+u4uvnv/Xtw96X3e/dEHqQ9eP8x6OP1o/WPs46InCk8qnqo/rf3V+Ndmqb307KDX
+	YM+ziGePhrhDL/+V+a9PwwXPqc8rRrRG6ketR8+M+YzderH0xfDLjJfT44W/Kf6295XR
+	q59+d/u9Z2LJxPBr0euZP0reqL45+tb2bedk6OTTd2nvpqeK3qu+P/aB/aH7Y/THkens
+	T/hPlZ+NP3d8CfzyeCZtZubf94Tz+wplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKWyAv
+	SUNDQmFzZWQgNiAwIFIgXQplbmRvYmoKMiAwIG9iago8PCAvVHlwZSAvUGFnZXMgL01l
+	ZGlhQm94IFswIDAgMzIwIDMyMF0gL0NvdW50IDEgL0tpZHMgWyAxIDAgUiBdID4+CmVu
+	ZG9iago3IDAgb2JqCjw8IC9UeXBlIC9DYXRhbG9nIC9QYWdlcyAyIDAgUiA+PgplbmRv
+	YmoKOCAwIG9iago8PCAvUHJvZHVjZXIgKG1hY09TIFZlcnNpb24gMTAuMTYgXChCdWls
+	ZCAyMUE1MzA0Z1wpIFF1YXJ0eiBQREZDb250ZXh0KSAvQ3JlYXRpb25EYXRlCihEOjIw
+	MjEwODI5MTkyMzU3WjAwJzAwJykgL01vZERhdGUgKEQ6MjAyMTA4MjkxOTIzNTdaMDAn
+	MDAnKSA+PgplbmRvYmoKeHJlZgowIDkKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAy
+	MTAzIDAwMDAwIG4gCjAwMDAwMDUwMjIgMDAwMDAgbiAKMDAwMDAwMDAyMiAwMDAwMCBu
+	IAowMDAwMDAyMjA3IDAwMDAwIG4gCjAwMDAwMDQ5ODcgMDAwMDAgbiAKMDAwMDAwMjI3
+	NSAwMDAwMCBuIAowMDAwMDA1MTA1IDAwMDAwIG4gCjAwMDAwMDUxNTQgMDAwMDAgbiAK
+	dHJhaWxlcgo8PCAvU2l6ZSA5IC9Sb290IDcgMCBSIC9JbmZvIDggMCBSIC9JRCBbIDw4
+	ODZjYTVkOWM5MmMxZDRhMmEzYTgxZTU2ODRjZTAyNT4KPDg4NmNhNWQ5YzkyYzFkNGEy
+	YTNhODFlNTY4NGNlMDI1PiBdID4+CnN0YXJ0eHJlZgo1MzE5CiUlRU9GCg==
+	</data>
+	<key>Separate preview panel open</key>
+	<false/>
+	<key>Separate preview panel rect</key>
+	<string>{{78, 55}, {859, 504}}</string>
+	<key>Version</key>
+	<string>2.3.3</string>
+</dict>
+</plist>

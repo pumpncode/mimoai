@@ -1,0 +1,16 @@
+{
+	"$schema": "https://x.nest.land/eggs@0.3.5/src/schema.json",
+	"name": "mimoai",
+	"entry": "module.js",
+	"description": "mini motorways ai",
+	"homepage": "https://github.com/pumpncode/mimoai",
+	"version": "0.1.0",
+	"unstable": true,
+	"files": [
+		"./"
+	],
+	"checkFormat": false,
+	"checkTests": false,
+	"checkInstallation": false,
+	"check": true
+}
